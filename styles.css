@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    max-width: 90%;
+    margin: 2rem 0 ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+main div{
+    padding: 1rem 3rem;
+}
+
+main div img{
+    margin:1rem 0;
+}
+.header{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 1rem 0;
+}
+.p{
+   margin: 1rem 0;
+   font-size: 15px; 
+   color:  hsla(0, 0%, 100%, 0.75);
+}
+button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 20px;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+
+.btn-one{
+   color: hsl(31, 77%, 52%);
+}
+.btn-two{
+  color: hsl(184, 100%, 22%);
+}
+.btn-three{
+  color: hsl(179, 100%, 13%) ;
+}
+button:active{
+    color: hsl(0, 0%, 95%);
+   background: transparent; 
+   border: solid 2px white;
+}
+.one{
+    background: hsl(31, 77%, 52%);
+}
+.two{
+   background: hsl(184, 100%, 22%);
+}
+.three{
+   background: hsl(179, 100%, 13%);
+}
+
+
+.attribution{
+    text-align: center;
+
+}
+@media only screen and (min-width: 500px){
+    main{
+        max-width: 60%;
+    }
+}
+@media only screen and (min-width: 800px){
+    main{
+        display:flex;
+        max-width: 95%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    main{
+        display:flex;
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width: 1300px){
+    main{
+        display:flex;
+        max-width: 60%;
+    }
+}
